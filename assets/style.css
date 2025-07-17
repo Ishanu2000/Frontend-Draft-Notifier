@@ -1,0 +1,18 @@
+#fdn-draft-button {
+    position: fixed;
+    background: #ff3e3e;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    z-index: 9999;
+}
+#fdn-draft-button:hover {
+    background: #cc2d2d;
+}
+#fdn-draft-button.bottom-right { bottom: 20px; right: 20px; }
+#fdn-draft-button.bottom-left { bottom: 20px; left: 20px; }
+#fdn-draft-button.top-right { top: 20px; right: 20px; }
+#fdn-draft-button.top-left { top: 20px; left: 20px; }
